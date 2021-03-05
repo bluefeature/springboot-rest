@@ -27,7 +27,7 @@ public class HotelController extends AbstractRestHandler {
 
     @Autowired
     private HotelService hotelService;
-
+// Here added comment
     @RequestMapping(value = "",
             method = RequestMethod.POST,
             consumes = {"application/json", "application/xml"},
