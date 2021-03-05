@@ -25,6 +25,8 @@ public class Hotel {
     @Column()
     String city;
 
+    
+    //Rate is required
     @Column()
     private int rating;
 
